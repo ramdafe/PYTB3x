@@ -1,3 +1,4 @@
+#Code to create a pyramid
 rows = int(input("How many rows do you want?: "))
 for i in range(0,rows):
     for j in range(rows-1, i, -1):
