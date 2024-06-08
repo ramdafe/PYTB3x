@@ -42,3 +42,11 @@ print("Imaginary Component", complex_exp.imag)
 # min or max
 print(min(a, b), "is minimum value out of", a, "and", b)
 print(max(a, b),  "is maximum value out of", a, "and", b)
+print((min(23, 23, -100, 34, -800, )))
+
+
+# Throws an error, not suppoerted between instances of 'str' and 'int'
+print((max(23, 23, -100, 34, "Ram",)))
+
+# Throws an error, not suppoerted between instances of 'str' and 'int'
+print(max(12,-2, 20, -30, 2+3j))
