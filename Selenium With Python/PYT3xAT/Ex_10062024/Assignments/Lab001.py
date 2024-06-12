@@ -1,12 +1,11 @@
 #Task 1
 
 # Question 1: Explain the difference between the = operator and the == operator in Python.
-
 x = 5 # Assigns 5 to x
 print("= is an assignment operator.")
 print("== is an equality operator.")
 print("5 value is assigned to x variable.\nValue of x: ", x)
-print("Equality operator, is x==x?", x==x) # Checks if x is equal to itself. Print True.
+print("Equality operator, is x==x?", x==x)  # Checks if x is equal to itself. Print True.
 
 # Question 2: What does the ** operator do in Python, and how is it used?
 print("The ** operator is used to raise a number to a power.") 
