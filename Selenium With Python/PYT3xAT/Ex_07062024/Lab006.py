@@ -1,0 +1,10 @@
+# Escape Seq
+print("Hello \"World\"")
+print("Hello \'World\'")
+print("Hello \nWorld")
+print("Hello \tWorld")
+print("Hello \bWorld")
+print("Hello \\World")
+print("\\n")
+print("https://www.ccm.com")
+print(r"C:\Users\ram.dafe\Desktop\FlyKra Docs")
