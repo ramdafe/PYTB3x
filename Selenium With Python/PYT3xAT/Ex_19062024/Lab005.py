@@ -10,7 +10,9 @@ my_list = [625, 144, 100, 2500, 225]
 # sqrt_list = find_sqrt(my_list)
 # print(sqrt_list)
         
-find_sqrt = lambda num: int(math.sqrt(num))
+# find_sqrt = lambda num: int(math.sqrt(num))
 
-sqrt_list = list(map(find_sqrt, my_list))
-print(sqrt_list)
+# sqrt_list = list(map(find_sqrt, my_list))
+# print(sqrt_list)
+
+print(list(map(lambda num: int(math.sqrt(num))(), my_list)))
