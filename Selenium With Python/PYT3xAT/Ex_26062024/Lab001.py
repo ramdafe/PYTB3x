@@ -1,4 +1,11 @@
-# Constructors
+# Constructors 
+# When an object of a class is created, the Constructor helps to initialize the data members/class variables i.e. assigning values to them.
+
+#Types of constructors : 
+
+# default constructor: The default constructor is a simple constructor which doesn’t accept any arguments. Its definition has only one argument which is a reference to the instance being constructed.
+
+# parameterized constructor: constructor with parameters is known as parameterized constructor. The parameterized constructor takes its first argument as a reference to the instance being constructed known as self and the rest of the arguments are provided by the programmer.
 
 class Dog:
     
@@ -9,6 +16,7 @@ class Dog:
     age = None
     city = None
     
+    # Parameterized constructor
     def __init__(self, breed_name, dog_name, height, age, city):
         self.breed_name = breed_name
         self.dog_name = dog_name

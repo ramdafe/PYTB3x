@@ -3,7 +3,7 @@ class hotel_booking:
     def __init__(self):
         self.name = input("Enter your name: ")
         self.age = int(input("Enter your age: "))
-    
+
     def login_to_app(self):
         
         print("You age is:", self.age)
